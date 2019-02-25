@@ -7,7 +7,7 @@ RUN yum -y install epel-release \
     && pip install -U pip \
     && pip install -U setuptools
 
-RUN pip install -U ansible==2.7.8 jmespath boto botocore boto3
+RUN pip install -U ansible jmespath boto botocore boto3
 
 WORKDIR /opt
 
