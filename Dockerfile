@@ -11,4 +11,4 @@ RUN pip install -U ansible jmespath boto botocore boto3
 
 WORKDIR /opt
 
-CMD [ "/bin/bash" ]
+CMD [ "/usr/local/bin/ansible-playbook" ]
